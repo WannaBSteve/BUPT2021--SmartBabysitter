@@ -1,0 +1,31 @@
+<view class="header">请输入待办事项：{{things}}</view>
+<input maxlength="10" class="cin" bindinput="bindKeyInput" placeholder="请输入待办事项" />
+<view class="header">请选择待办时间：</view>
+<view class="header">{{year}}年{{month}}月{{day}}日{{hour}}时</view>
+<view>
+    <view>
+        <picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;  " value="{{value}}" bindchange="bindChange">
+            <picker-view-column>
+                <view wx:for="{{years}}" wx:key="{{years}}" style="line-height: 50px; text-align: center;">{{item}}年</view>
+            </picker-view-column>
+            <picker-view-column>
+                <view wx:for="{{months}}" wx:key="{{months}}" style="line-height: 50px; text-align: center;">{{item}}月</view>
+            </picker-view-column>
+            <picker-view-column>
+                <view wx:for="{{days}}" wx:key="{{days}}" style="line-height: 50px; text-align: center;">{{item}}日</view>
+            </picker-view-column>
+            <picker-view-column>
+                <view wx:for="{{hours}}" wx:key="{{hours}}" style="line-height: 50px; text-align: center;">{{item}}时</view>
+            </picker-view-column>
+        </picker-view>
+    </view>
+</view>
+<view>
+    <view>
+        <view class="switch">
+        <view>是否添加到定时通知：{{switchChecked}}</view>
+            <switch checked="{{switchChecked}}" bindchange="switchChange"></switch>
+        </view>
+    </view>
+</view>
+<button class="button" bindtap="buttontap">添加备忘录</button>

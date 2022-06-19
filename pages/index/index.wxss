@@ -1,0 +1,22 @@
+/**index.wxss**/
+.littleTitle{
+    font-size:80rpx;
+  }
+  .image{
+    width:500rpx;
+    height:500rpx;
+    border-radius:50%;
+  }
+  .hover{
+    color:#66ccff;
+  }
+  .nar-hover{
+    color:red;
+  }
+  .container{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }

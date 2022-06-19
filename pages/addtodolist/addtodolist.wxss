@@ -1,0 +1,39 @@
+/* pages/addtodolist/addtodolist.wxss */
+page {
+    background: -webkit-linear-gradient(top,rgb(133, 168, 207),#accadb,white);
+} 
+.header{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;  
+    text-align: center;
+    font-family: FZShuTi;
+    font-size: 30px;
+    margin-top: 20rpx;
+    margin-bottom: 30rpx;
+}
+.cin {
+    position: relative;
+    width: 686rpx;
+    margin: 0 32rpx;
+    margin-top: 20rpx;
+    margin-bottom: 30rpx;
+    height: 68rpx;
+    -webkit-overflow-scrolling: touch;
+    background: rgb(146, 197, 212);
+    border-radius: 32rpx;
+    font-size: 24rpx;
+    color: #1f272a;
+    padding-left: 96rpx;
+    box-sizing: border-box;
+  }
+  .switch{
+      background-color: #8bcce6(121, 171, 204);
+  }
+  .button{
+    margin: 20rpx;
+    background-color: rgb(177, 205, 243);
+    font-family: cursive;
+  }
