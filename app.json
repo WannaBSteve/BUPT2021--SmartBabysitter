@@ -1,0 +1,31 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/using/using",
+      "pages/index2/index2",
+      "pages/addtodolist/addtodolist",
+      "pages/addmed/addmed"
+    ],
+    "tabBar": {
+      "list": [
+        {
+          "text": "备忘录",
+          "pagePath": "pages/index2/index2",
+          "iconPath": "pages/image/Hospital.png",
+          "selectedIconPath": "pages/image/Hospital (1).png"
+        },
+        {
+          "text": "大郎吃药了",
+          "pagePath": "pages/using/using",
+          "iconPath": "pages/image/药箱 (1).png",
+          "selectedIconPath": "pages/image/药箱.png"
+        }
+      ]
+    },
+    "window": {
+      "navigationBarTitleText": "智能保姆",
+      "navigationBarBackgroundColor": "#66CCFF",
+      "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json"
+  }
