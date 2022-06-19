@@ -1,0 +1,5 @@
+<view class="container">
+    <image src="/pages/image/智能药盒.png" class="image"></image>
+    <text style="font-weight:bold" class="littleTitle">智能保姆</text>
+    <navigator style="font-size:40rpx" url="../index2/index2" class="hover" hover-class="nar-hover" open-type="switchTab">点击此处立即开始使用</navigator>
+</view>

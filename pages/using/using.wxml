@@ -1,0 +1,3 @@
+<view class="container">
+<button bindtap="getPills">获取今天的药物</button>
+</view>

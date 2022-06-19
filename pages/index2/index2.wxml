@@ -1,0 +1,13 @@
+<view class="class1">备忘录</view>
+<view class="class2">点击内容可以删除该条备忘录</view>
+<view class="content">
+    <view class="header">内容</view>
+    <view class="header">时间</view>
+</view>
+<block wx:for="{{databack}}">
+    <view class='content'>
+        <view class="todolist" bindtap="delete" id="{{item.things}}">{{item.things}}</view>
+        <view class="todolist">{{item.time}}</view>
+    </view>
+</block>
+<button bindtap="addtodolist" class="button" style="position: relative; left: 0rpx; top: -19rpx">添加新的备忘录</button>
